@@ -1,0 +1,50 @@
+.mainNavbar {
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    border: 2px solid black;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    height: 5%;
+    background: #196ab1;
+    color: white;
+  }
+ 
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 5px;
+  }
+  
+  .heading p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px; 
+    margin: 0; 
+  }
+  
+  .heading span {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0; 
+  }
+  .logo img{
+    display: flex;
+    width: 100px;
+    align-self: flex-start;
+    height: 100px;
+    cursor: pointer;
+    object-fit: contain;
+    
+  }
+  .logout{
+    font-size: 48px;
+    color: rgb(238, 15, 15);
+    cursor: pointer;
+  }

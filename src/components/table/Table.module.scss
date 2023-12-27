@@ -1,0 +1,36 @@
+.TableContainer {
+    margin: 20px;
+    overflow-x: auto; 
+    input{
+        width: 100%;
+    }
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    white-space: nowrap; 
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .AddRemove{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+   
+  }
+  .IconAdd{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }

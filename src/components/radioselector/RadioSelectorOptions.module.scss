@@ -1,0 +1,12 @@
+.physicallyDisabled{
+    display: flex;
+    .physicallyDisLabel{
+        width: 30%;
+    }
+    .physicallyDisInput{
+        width: 50%;
+        display: flex;
+        gap: 20px;
+        
+    }
+}
